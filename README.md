@@ -1,6 +1,11 @@
 # flask-pymongo
 An template for a flask app with pymongo
 
+## Environmental Variables
+Copy `example.env` to `.env`.  
+Put your mongo connection string into `.env` where indicated.  
+Note: in order to use mLab's sandbox (free) instance, you must add `?retryWrites=false` to the end of the connection string.  
+
 ## Dev Instructions
 Run `pipenv install --dev` to install the env.  
 Run `pipenv run pre-commit install` to initialize the git hooks.  
